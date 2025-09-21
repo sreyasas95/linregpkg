@@ -16,3 +16,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/sreyasas95/linregpkg
 BugReports: https://github.com/sreyasas95/linregpkg/issues
+RoxygenNote: 7.3.3
