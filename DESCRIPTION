@@ -1,19 +1,24 @@
 Package: linregpkg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A linear regression package in R
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Sreyas", "A S",
+      email = "sread272@student.liu.se.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: A simple R package for multiple linear regression using linear algebra. It provides a function linreg() to fit linear models and basic methods like print(), plot(), and summary() for easy analysis and visualization.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/sreyasas95/linregpkg
 BugReports: https://github.com/sreyasas95/linregpkg/issues
 RoxygenNote: 7.3.3
+Imports: 
+    ggplot2,
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
